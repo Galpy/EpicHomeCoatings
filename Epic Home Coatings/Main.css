@@ -1,0 +1,60 @@
+* {
+	margin:0;
+	padding:0;
+}
+@font-face{
+
+}
+html, body {
+	height:100%;
+}
+body {
+	background-image: url('Images/Background.png');
+	margin:0;
+	display: flex;
+	flex-direction:column;
+	min-height:100%;
+}
+#main {
+	overflow:auto;
+	padding-bottom:10px;
+}
+#footer {
+	background-color: #000;
+	color:white;
+	position:relative;
+	height:auto;
+	width:100%;
+	margin-top: auto;
+	margin-bottom:0;
+	clear: both;
+	text-align:center;
+}
+.navbar {
+	background-color:#000;
+}
+.navbar-nav {
+	margin-left:auto !important;
+}
+.nav-item {
+	margin:25px;
+	white-space: nowrap;
+}
+.EpicLogo {
+	width:13%;
+	height:auto;
+}
+.EpicText {
+	display:inline-block;
+	list-style-type: none;
+	margin-left: 15px;
+	color:white;
+}
+.EpicMain:hover {
+	text-decoration: none;
+}
+.nav-link {
+	display:inline-block;
+	position: relative;
+	top: 25%;
+}
